@@ -4,8 +4,11 @@ You need SDL2 dev libraries including mixer/ttf/image
 sudo apt install cmake libsdl2-dev g++
 
 mkdir build
+
 cd build
+
 cmake ..
+
 make
 
 ## Windows
