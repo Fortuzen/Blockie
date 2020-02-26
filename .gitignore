@@ -1,0 +1,10 @@
+Blockie.dir/
+CMakeFiles
+Release/
+Win32/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+cmake_install.cmake
+CMakeCache.txt
+.vs/
