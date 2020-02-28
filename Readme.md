@@ -1,3 +1,5 @@
+# Blockie
+
 C++ clone of a certain game.
 
 ## Linux
@@ -5,7 +7,7 @@ You need SDL2 dev libraries + SDL2 mixer/ttf/image libraries, cmake, c++ compile
 
 eg. sudo apt install cmake g++ libsdl2-dev libsdl2-mixer-dev libsdl2-ttf-dev libsdl2-image-dev
 
-# Building
+### Building
 
 mkdir build
 
@@ -17,7 +19,7 @@ make
 
 ## Windows
 
-# Building
+### Building
 
 cmake -G "Visual Studio 16 2019" -A Win32 .
 
