@@ -23,8 +23,13 @@ void Game::init()
 	//SDL TTF
 	TTF_Init();
 	font = TTF_OpenFont("m5x7.ttf", 64);
-	// MIXER
-	Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 8, 2048);
+	// MIXER, original channels 8
+	int mix_error = Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 4, 2048);
+	SDL_Log("%d", mix_error);
+	if(mix_error == -1) {
+		SDL_Log("Mix: %s", Mix_GetError());
+	
+	}
 	// Image
 	IMG_Init(IMG_INIT_PNG);
 
