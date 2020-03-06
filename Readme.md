@@ -1,3 +1,5 @@
+![](https://github.com/Fortuzen/Blockie/workflows/Blockie%20Linux/badge.svg)
+
 # Blockie
 
 C++ clone of a certain game.
